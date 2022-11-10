@@ -33,8 +33,6 @@ function menuMaker(linksArray) {
   return menuWrapper;
 }
 
-console.log(menuMaker(menuItems));
-
 document.querySelector('.header').appendChild(menuMaker(menuItems));
 
 
